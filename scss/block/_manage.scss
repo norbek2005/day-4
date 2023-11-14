@@ -1,0 +1,217 @@
+.manage {
+    padding: 140px 0;
+    padding-top: 198px;
+    background-color: #012F34;
+    background-repeat: no-repeat;
+    background-image: url(../img/manage-bg.svg);
+    background-position: right bottom;
+}
+
+.manage__title {
+    max-width: 445px;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    position: relative;
+
+    &::before {
+        content: "";
+        width: 50px;
+        height: 4px;
+        background-color: #F67E7E;
+        display: block;
+        top: -54px;
+        position: absolute;
+    }
+}
+
+.manage__item {
+    display: flex;
+    gap: 23px;
+
+    &::before {
+        content: "";
+        width: 72px;
+        height: 72px;
+        display: block;
+        flex-shrink: 0;
+        background-repeat: no-repeat;
+        background-image: url(/img/manage-img.svg);
+    }
+
+}
+
+.manage__item2 {
+    display: flex;
+    gap: 23px;
+
+    &::before {
+        content: "";
+        width: 72px;
+        height: 72px;
+        display: block;
+        flex-shrink: 0;
+        background-repeat: no-repeat;
+        background-image: url(/img/manage-img2.svg);
+    }
+
+}
+
+.manage__item3 {
+    display: flex;
+    gap: 23px;
+
+    &::before {
+        content: "";
+        width: 72px;
+        height: 72px;
+        display: block;
+        flex-shrink: 0;
+        background-repeat: no-repeat;
+        background-image: url(/img/manage-img3.svg);
+    }
+
+}
+
+.manage__sub_title {
+    color: #F67E7E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.manage__caption {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 32px;
+}
+
+.manage__block {
+    max-width: 445px;
+
+}
+
+.manage__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1270px) {
+    .manage {
+        background-position: right top;
+    }
+
+}
+
+@media screen and (max-width:1030px) {
+    .manage {
+        padding-top: 158px;
+    }
+
+    .manage__container {
+        flex-direction: column;
+        max-width: 551px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .manage__title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 64px;
+        max-width: 445px;
+    }
+
+    .manage__block {
+        max-width: 478px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .manage {
+        padding-top: 122px;
+    }
+
+    .manage__title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 56px;
+        max-width: 234px;
+    }
+
+    .manage__item {
+        display: block;
+        text-align: center;
+
+        &::before {
+            content: "";
+            width: 72px;
+            height: 72px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            flex-shrink: 0;
+            margin-bottom: 16px;
+            background-repeat: no-repeat;
+            background-image: url(/img/manage-img.svg);
+        }
+
+    }
+
+    .manage__item2 {
+        display: block;
+        text-align: center;
+
+        &::before {
+            content: "";
+            width: 72px;
+            height: 72px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            flex-shrink: 0;
+            margin-bottom: 16px;
+            background-repeat: no-repeat;
+            background-image: url(/img/manage-img2.svg);
+        }
+
+    }
+
+    .manage__item3 {
+        display: block;
+        text-align: center;
+
+        &::before {
+            content: "";
+            width: 72px;
+            height: 72px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            flex-shrink: 0;
+            margin-bottom: 16px;
+            background-repeat: no-repeat;
+            background-image: url(/img/manage-img3.svg);
+        }
+
+    }
+
+    .manage__sub_title {
+        margin-bottom: 6px;
+    }
+
+    .manage__caption {
+        margin-bottom: 48px;
+        max-width: 327px;
+    }
+}
